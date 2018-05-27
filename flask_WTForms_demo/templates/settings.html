@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form action="" method="post">
+{#    括号里面可以添加样式#}
+    <p>{{ form.username.label }} {{ form.username(class="") }}</p>
+    <p>{{ form.age.label }} {{ form.age() }}</p>
+    <p>{{ form.remeber.label }} {{ form.remeber() }}</p>
+    <p>{{ form.tags.label }} {{ form.tags() }}</p>
+    <p><input type="submit" value="提交"></p>
+</form>
+
+</body>
+</html>
